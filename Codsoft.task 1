@@ -1,0 +1,40 @@
+Task 1 on simple calculator!.
+print("Welcome to the SIMPLE CALCULATOR !")
+
+while True:
+
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+print("Press 1 for addition")
+print("Press 2 for subtraction")
+print("Press 3 for multiplication")
+print("Press 4 for division")
+
+#Taking the choice of operation
+
+choice = int(input("Enter your choice from 1-4: "))
+
+if choice == 1:
+
+print("The result of addition is:", {num1 + num2})
+
+elif choice == 2:
+
+print("The result of subtraction is:", {num1 num2})
+
+elif choice == 3:
+
+print("The result of multiplication is:", {num1 * num2})
+
+elif choice == 4:
+
+print("The result of division is:", {num1 / num2})
+
+else:
+
+print("Invalid input. Please try again.")
+
+continue_choice = input("Do you want to perform another calculation? (yes/no): ").lower ()
+# Codsoft-
